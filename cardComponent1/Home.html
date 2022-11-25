@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./card.css" />    
+    <title>Web Components Example1</title>
+  </head>
+<body>
+  <section id="button-container">
+    <button id="all" class="btnFilter">All</button>
+    <button id="music" class="btnFilter">Music</button>
+    <button id="fantasy" class="btnFilter">Fantasy</button>
+    <button id="adventure" class="btnFilter">Adventure</button>
+    <button id="sf" class="btnFilter">SF</button>
+    <button id="action" class="btnFilter">Action</button>
+    <button id="drama" class="btnFilter">Drama</button>
+    <button id="romance" class="btnFilter">Romance</button>
+  </section>
+
+  <section id="resourcesContainer">
+    <template>
+      <article id="card-container">
+        <div id="card">
+          <header>
+            <p id="title"></p>
+          </header>
+          <p id="date"></p>
+          <img id="image"></img>
+          <div id="tagsContainer"></div>
+        </div>
+      </article>
+    </template>
+  </section>
+  <script type="text/javascript" src="./Card.js"></script> 
+</body>
+</html>

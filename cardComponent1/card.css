@@ -1,0 +1,61 @@
+#button-container {
+  border: 1px solid black;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.btnFilter {
+  font-size: 15px;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 15px;
+  border: 1px solid rgb(134, 134, 134);
+}
+
+#resourcesContainer {
+  width: 60%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#card {
+  background-color: rgb(233, 233, 233);
+  width: 200px;
+  height: 320px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#title {
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+#date {
+  font-size: 14px;
+}
+
+#image {
+  height: 180px;
+}
+#tagsContainer {
+  height: 40px;
+  vertical-align: middle;
+}
+
+#tagsContainer span {
+  position: relative;
+  top: 10px;
+  padding: 5px;
+  margin: 3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 14px;
+}

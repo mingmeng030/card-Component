@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Components Example2</title>
+    <style>
+      #card-container {
+        width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="card-container">
+      <movie-card
+        name="Sing Street"
+        date="2016"
+        image="https://m.media-amazon.com/images/M/MV5BMjEzODA3MDcxMl5BMl5BanBnXkFtZTgwODgxNDk3NzE@._V1_.jpg"
+        tags="['all', 'music']"
+      ></movie-card>
+      <movie-card
+        name="Big Fish"
+        date="2003"
+        image="http://image.cine21.com/cine21/poster/2021/0406/12_10_39__606bd12f95ec9.jpg"
+        tags=" ['all', 'fantasy', 'drama']"
+      ></movie-card>
+      <movie-card
+        name="Tenet"
+        date="2020"
+        image="http://img.movist.com/?img=/x00/05/32/55_p1.jpg"
+        tags="['all', 'action', 'sf']"
+      ></movie-card>
+      <movie-card
+        name="Interstellar"
+        date="2014"
+        image="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
+        tags="['all', 'adventure', 'sf']"
+      ></movie-card>
+      <movie-card
+        name="Call Me by Your Name"
+        date="2017"
+        image="https://m.media-amazon.com/images/M/MV5BNDk3NTEwNjc0MV5BMl5BanBnXkFtZTgwNzYxNTMwMzI@._V1_FMjpg_UX1000_.jpg"
+        tags="['all', 'drama', 'romance']"
+      ></movie-card>
+      <movie-card
+        name="Little Forest"
+        date="2018"
+        image="http://img.movist.com/?img=/x00/04/90/83_p1.jpg"
+        tags=" ['all', 'drama']"
+      ></movie-card>
+      <movie-card
+        name="Ant-man"
+        date="2015"
+        image="https://i.ebayimg.com/images/g/pvoAAOSwvk9Zgo1i/s-l1600.jpg"
+        tags="['all', 'fantasy', 'adventure']"
+      ></movie-card>
+      <movie-card
+        name="Ant-man and the wasp"
+        date="2018"
+        image="https://www.scifinow.co.uk/wp-content/uploads/2018/06/antman_and_the_wasp_ver10_xxlg-768x1115.jpg"
+        tags=" ['all', 'fantasy','adventure']"
+      ></movie-card>
+    </div>
+    <script src="./Card.js"></script>
+  </body>
+</html>
